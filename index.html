@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .clear{
+            clear: both;
+        }
+        body {
+            background-color: rgba(170, 173, 7, 0.41);
+        }
+         .head{
+            width: 100%;
+            height: 395px;
+        }
+        h1,h2{
+              position: relative;
+              font-size: 58px;
+              color: #b9f7ff;
+              text-align: center;
+              margin: 0 auto;
+              
+        }
+        #h{
+            float: left;
+            margin-left: 400px;
+            margin-top: 84px;
+
+        }
+        ul{
+            position: relative;
+            margin-left: 1175px;
+            padding: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        ul li{
+            padding: 20px;
+            margin: 10px;
+            background-color: #dcd740;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px #fff825;
+            list-style: none;
+        }
+        ul li a{
+            text-decoration: none;
+            color: #551a8b;
+            font-size: 15px;
+            font-size: 20px;
+        }
+        a:hover{
+            background-color: #fff825;
+        }
+        li:hover{
+            background-color: #fff825;
+        }
+        .back-img{
+            width: 100%;
+            height: 400px;
+            background-image: url(bg333.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            color: white;
+            position: absolute;
+             filter: blur(5px);
+        }
+        table{
+            text-align: center;
+            position: relative;
+            margin: 0 auto;
+            font-size: 30px;
+            width: 50%;
+            margin-top: 83px;
+        }
+        table a{
+            padding: 10px;
+            margin: 5px;
+            text-decoration: none;
+            background-color: rgba(237, 255, 90, 0.74);
+            border-radius: 8px;
+            box-shadow: 5px 5px 5px #fff825;
+            
+        }
+        #logo{
+            margin: 10px 0px 0px 0px;
+        }
+        .mbody{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            flex-wrap: wrap;
+            padding: 0px;
+            /*background-color: #9e9e9e;*/
+            justify-content: space-around;
+        }
+        .item{
+            margin: 10px;
+            border-radius: 20px;
+            padding: 20px;
+            background-color: #b4bd42;
+        }
+        h3{
+            text-align: center;
+            background-color: #bdbf2b;
+            border-radius: 10px;
+            margin: 5px;
+        }
+        input[type="submit"]{
+            margin-left: 100px;
+            padding: 10px;background-color: #f5ff5a;
+            font-size: 18px;
+            border-radius: 20px;
+        }
+        input[type="button"] {
+            padding: 8px 30px;
+            border-radius: 15px;
+            background-color: #6decc3;
+        }
+        select {
+            background-color: #6decc3;
+            border-radius: 20px;
+        }
+        .foot{
+            display: flex;
+            background-color: black;
+            color: white;
+            width: 100%;
+           
+            justify-content: space-around;
+        }
+        
+        
+        @media screen and (max-width:400px) {
+            .head{
+            width: 100%;
+            height: 300px;
+        }
+        .back-img{
+            width: 100%;
+            height: 295px;
+            background-image: url(bg333.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            color: white;
+            position: absolute;
+             filter: blur(5px);
+        }
+            h1,h2{
+              position: relative;
+              font-size: 30px;
+              color: #b9f7ff;
+              text-align: center;
+              margin:0;
+                display: block;
+              
+        }
+            #h{
+                float: none;
+                margin-left: 10px;
+                margin-top: 5px;
+        }
+            ul{
+                position: relative;
+                margin-left: 95px;
+                padding: 10px;
+                margin-top: 0;
+                margin-bottom: 0;
+                width: 30%;
+        }
+            ul li{
+                padding: 5px;
+                margin: 5px;
+                background-color: #dcd740;
+                border-radius: 5px;
+                box-shadow: 5px 5px 5px #fff825;
+                list-style: none;
+        }
+            table{
+                text-align: center;
+                position: relative;
+                margin: 0 auto;
+                font-size: 20px;
+                width: 50%;
+                margin-top: 50px;
+        }  
+            .foot{
+                display: block;
+                background-color: black;
+                color: white;
+                width: 100%;
+                justify-content: space-around;
+        }
+            .location {
+                text-align: center;
+            }
+            .contact{
+                text-align: center;
+            }
+            .copyright{
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+       <div class="back-img">
+           
+       </div>
+        <div class="topnav">
+          <div id="h">
+               <h1><b>WELCOME!</b></h1>
+               <h2><b>Open Door Resturent</b></h2>
+           </div>
+           <ul>
+               <li><a href="login.html" target="_blank">Log in</a></li>
+               <li><a href="signup.html" target="_blank">Sign Up</a></li>
+           </ul><div class="clear"></div>
+           <table>
+               <tr>
+                   <td><img id="logo" src="bgimg1.jpg" width="50" height="30"></td>
+                   <td><a href="#">Home</a></td>
+                   <td><a href="about.html" target="_blank">About</a></td>
+                   <td><a href="review.html" target="_blank">Review</a></td>
+               </tr>
+           </table>
+        </div>
+        </div>
+        <div>
+            <form style="text-align:center;margin:10px">
+               <select style="padding:20px";>
+                    <option value="">select catagory</option>
+                    <option value="Bengali">Bengali</option>
+                    <option value="indian">Indian</option>
+                    <option value="spanish">Spanish</option>
+                    <option value="Western">Western</option>
+                    <option value="Latin">Latin</option>
+               </select>
+                <input type="button" value="Done">
+            </form>
+        </div>
+        <div class="mbody">
+            <div class="item">
+                <img src="burger.jpg" width="250" height="175">
+                <h3>Burger</h3>
+                <h3>Price-500TK</h3>
+                <input type="submit" value="Order" >
+             </div>
+             <div class="item">
+                <img src="burger.jpg" width="250" height="175">
+                <h3>Burger</h3>
+                <h3>Price-500TK</h3>
+                <input type="submit" value="Order" >
+             </div>
+             <div class="item">
+                <img src="burger.jpg" width="250" height="175">
+                <h3>Burger</h3>
+                <h3>Price-500TK</h3>
+                <input type="submit" value="Order" >
+             </div>
+             <div class="item">
+                <img src="burger.jpg" width="250" height="175">
+                <h3>Burger</h3>
+                <h3>Price-500TK</h3>
+                <input type="submit" value="Order" >
+             </div>
+             <div class="item">
+                <img src="burger.jpg" width="250" height="175">
+                <h3>Burger</h3>
+                <h3>Price-500TK</h3>
+                <input type="submit" value="Order" >
+             </div>
+             <div class="item">
+                <img src="burger.jpg" width="250" height="175">
+                <h3>Burger</h3>
+                <h3>Price-500TK</h3>
+                <input type="submit" value="Order" >
+             </div>
+             <div class="item">
+                <img src="burger.jpg" width="250" height="175">
+                <h3>Burger</h3>
+                <h3>Price-500TK</h3>
+                <input type="submit" value="Order" >
+             </div>
+             
+            
+        </div>
+        <div class="foot">
+            <div class="location">
+                <div class="limg">
+                    <img src="location.png">
+                </div>
+                <div class="linfo">
+                    Dhanmandi-32,<br>
+                    Dhaka,Bangladesh.
+                </div>
+            </div>
+            <div class="contact">
+               <div class="cimg">
+                   <img src="call.png">
+               </div>
+               <div class="cinfo">
+                   Manager,Open Door.<br>
+                   hellomstq@gmail.com<br>
+                   +880170000000
+               </div>
+                
+            </div>
+            <div class="copyright">
+                <div class="crimg">
+                   <img src="copyright.png">
+               </div>
+               <div class="crinfo">
+                   Open Door Resturent<br>
+                   a Open door's property.
+            </div>
+        </div>
+    
+</body>
+</html>

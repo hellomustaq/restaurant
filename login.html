@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: #ccbe1e;
+            margin: 200px 5px 5px 420px;
+            width: 500px;
+            border-radius: 10px;
+        }
+        h1{
+            text-align: center;
+            color: #4281c5;
+        }
+        td{
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bolder;
+            color: #1270d6;
+        }
+        input[type="text"]{
+            padding: 10px;
+            border-radius: 10px;
+        }
+        input[type="password"]{
+            padding: 10px;
+            border-radius: 10px;
+        }
+        input[type="submit"]{
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: yellow;
+            color: mediumslateblue;
+            margin-left: 220px;
+        }
+        
+        @media screen and (max-width:400px){
+            form{
+            background-color: #ccbe1e;
+            margin: 100px auto;
+            width: auto;
+            border-radius: 10px;
+        }
+            input[type="submit"]{
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: yellow;
+            color: mediumslateblue;
+            margin:10px 0px 0px 120px;
+        }
+        }
+        
+    </style>
+</head>
+<body style="background-color:#f5f77c">
+   <form class="loginn">
+      <h1>Log In For Yours!</h1>
+       <table>
+           <tr>
+               <td>User name or Email</td>
+               <td><input type="text" placeholder="enter email or Unami" required></td>
+           </tr>
+           <tr>
+               <td>Password</td>
+               <td><input type="password" placeholder="enter password" required></td>
+           </tr>
+       </table>
+       <input type="submit" value="GOO">
+   </form>
+    
+</body>
+</html>
