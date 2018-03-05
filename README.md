@@ -1,2 +1,2 @@
 # restaurant
-A static web site for restaurant.
+A HTML web Site for restaurant.
